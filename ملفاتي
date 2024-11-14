@@ -1,0 +1,9 @@
+/storage/emulated/0/Download/examples/.gitattributes/storage/emulated/0/Download/examples/parcel/package.json// Import only the Bootstrap components we need
+import { Popover } from 'bootstrap';
+
+// Create an example popover
+document.querySelectorAll('[data-bs-toggle="popover"]')
+  .forEach(popover => {
+    new Popover(popover)
+  })
+project-bolt-sb1-rrdjrf_(1)_١٥١١_٠٠٢٦١٣project-bolt-vitejs-vite-gj3xa5_١٥١١_٠٠٢٨٥٩
